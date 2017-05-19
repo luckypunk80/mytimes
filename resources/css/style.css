@@ -1,0 +1,23 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight:bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: inline;
+  color: mediumaquamarine;
+  align-items: center;
+}
+
+.sections {
+  display: inline-block;
+}
+.blink {
+  color: black;
+}
