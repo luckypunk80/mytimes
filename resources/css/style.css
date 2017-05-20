@@ -1,18 +1,23 @@
-.header {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight:bold;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
+  position:fixed;
 }
 
 .logo {
-  display: inline;
-  color: mediumaquamarine;
-  align-items: center;
+  display: flex;
+  padding: 20px 10px;
+}
+
+div span {
+ display: inline-block;
+ color: mediumaquamarine;
 }
 
 .sections {
@@ -20,4 +25,39 @@
 }
 .blink {
   color: black;
+  padding: 5px;
+}
+
+
+
+
+.container {
+  display: flex;
+  height:500px;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+  padding-right: 5px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid black;
+  padding-left: 5px;
 }
